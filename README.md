@@ -2,7 +2,7 @@
 
 ## about-me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+I create a website that is all about me! I include my bio and other things about myself. I ask the user to answer yes or no questions about me before I give them access to the page.
 
 ### Author: Luke Rogers
 
@@ -13,7 +13,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+* ![Lighthouse report - Lab 2](/img/Lighthouse-report-lab2.png "Lighthouse report - Lab 2")
 
 ### Reflections and Comments
 
