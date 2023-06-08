@@ -174,30 +174,30 @@ numberQuestion();
 //   question6CorrectAnswer = 0;
 // }
 
-let topTenShows = ['The Office', 'Game of Thrones', 'Parks and Rec', 'Severence', 'Lost', 'New Girl', 'Friends', 'The Umbrella Academy', 'Band of Brothers', 'Friday Night Lights'];
-
-
-let guessShowAttempts = 6;
-let userShowGuess;
-let isGuessCorrect = false;
-
-while (guessShowAttempts > 0 && !isGuessCorrect) {
-  userShowGuess = prompt('What is one of my favorite shows?');
-  for (let i = 0; i < topTenShows.length; i++) {
-    // console.log(userShowGuess, topTenShows[i], userShowGuess.toLowerCase() === topTenShows[i].toLowerCase());
-    if (userShowGuess.toLowerCase() === topTenShows[i].toLowerCase()) {
-      isGuessCorrect = true;
-      alert('Correct! That show is in my top ten!');
-      score++;
-      break;
+function topTenQuestion() {
+  let topTenShows = ['The Office', 'Game of Thrones', 'Parks and Rec', 'Severence', 'Lost', 'New Girl', 'Friends', 'The Umbrella Academy', 'Band of Brothers', 'Friday Night Lights'];
+  let guessShowAttempts = 6;
+  let userShowGuess;
+  let isGuessCorrect = false;
+  while (guessShowAttempts > 0 && !isGuessCorrect) {
+    userShowGuess = prompt('What is one of my favorite shows?');
+    for (let i = 0; i < topTenShows.length; i++) {
+      // console.log(userShowGuess, topTenShows[i], userShowGuess.toLowerCase() === topTenShows[i].toLowerCase());
+      if (userShowGuess.toLowerCase() === topTenShows[i].toLowerCase()) {
+        isGuessCorrect = true;
+        alert('Correct! That show is in my top ten!');
+        score++;
+        break;
+      }
+    }
+    if (!isGuessCorrect) {
+      // break;
+      guessShowAttempts--;
+      alert(`Incorrect. That is not in my top ten. You have ${guessShowAttempts} attempts remaining.`);
     }
   }
-  if (!isGuessCorrect) {
-    // break;
-    guessShowAttempts--;
-    alert(`Incorrect. That is not in my top ten. You have ${guessShowAttempts} attempts remaining.`);
-  }
 }
+topTenQuestion();
 
 // let question7CorrectAnswer = 0;
 
