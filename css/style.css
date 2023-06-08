@@ -1,5 +1,9 @@
 /* This is where you will write your CSS */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: rgb(222, 222, 222);
 }
@@ -24,6 +28,31 @@ h2 {
 
 p {
   padding: 1rem;
+}
+
+ul {
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+ul li {
+  list-style-type: disc;
+  padding: .2rem;
+}
+
+section {
+  width: 24%;
+}
+
+section ol {
+  padding: 1rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+section li {
+  list-style-type: number;
+  padding: .2rem;
 }
 
 footer p {
