@@ -57,19 +57,21 @@ coloradoQuestion();
 //   question2CorrectAnswer = 0;
 // }
 
-let doIWantToBeAstronaut = prompt('Do I want to be an astronaut someday? Yes or no?');
-
-if(doIWantToBeAstronaut.toLowerCase() === 'yes' || doIWantToBeAstronaut.toLowerCase() === 'y') {
-  //console.log('That is incorrect. I want to be a Team Leader at a big tech company.');
-  alert('That is incorrect. I want to be a Team Leader at a big tech company.');
-} else if (doIWantToBeAstronaut.toLowerCase() === 'no' || doIWantToBeAstronaut.toLowerCase() === 'n') {
-  //console.log('Correct! I want to be a Team Leader at a big tech company.');
-  alert('Correct! I want to be a Team Leader at a big tech company.');
-  score++;
-} else {
-  //console.log('You need to answer with a yes or a no');
-  alert('You need to answer with a yes or a no');
+function astronautQuestion() {
+  let doIWantToBeAstronaut = prompt('Do I want to be an astronaut someday? Yes or no?');
+  if(doIWantToBeAstronaut.toLowerCase() === 'yes' || doIWantToBeAstronaut.toLowerCase() === 'y') {
+    //console.log('That is incorrect. I want to be a Team Leader at a big tech company.');
+    alert('That is incorrect. I want to be a Team Leader at a big tech company.');
+  } else if (doIWantToBeAstronaut.toLowerCase() === 'no' || doIWantToBeAstronaut.toLowerCase() === 'n') {
+    //console.log('Correct! I want to be a Team Leader at a big tech company.');
+    alert('Correct! I want to be a Team Leader at a big tech company.');
+    score++;
+  } else {
+    //console.log('You need to answer with a yes or a no');
+    alert('You need to answer with a yes or a no');
+  }
 }
+astronautQuestion();
 
 // let question3CorrectAnswer = 0;
 
@@ -79,19 +81,21 @@ if(doIWantToBeAstronaut.toLowerCase() === 'yes' || doIWantToBeAstronaut.toLowerC
 //   question3CorrectAnswer = 0;
 // }
 
-let didIGoToUW = prompt('Did I go to the University of Washington? Yes or no?');
-
-if(didIGoToUW.toLowerCase() === 'yes' || didIGoToUW.toLowerCase() === 'y') {
-  //console.log('That is incorrect. I went to Wheaton College.');
-  alert('That is incorrect. I went to Wheaton College.');
-} else if (didIGoToUW.toLowerCase() === 'no' || didIGoToUW.toLowerCase() === 'n') {
-  //console.log('Correct! I went to Wheaton College.');
-  alert('Correct! I went to Wheaton College.');
-  score++;
-} else {
-  //console.log('You need to answer with a yes or a no');
-  alert('You need to answer with a yes or a no');
+function uWQuestion() {
+  let didIGoToUW = prompt('Did I go to the University of Washington? Yes or no?');
+  if(didIGoToUW.toLowerCase() === 'yes' || didIGoToUW.toLowerCase() === 'y') {
+    //console.log('That is incorrect. I went to Wheaton College.');
+    alert('That is incorrect. I went to Wheaton College.');
+  } else if (didIGoToUW.toLowerCase() === 'no' || didIGoToUW.toLowerCase() === 'n') {
+    //console.log('Correct! I went to Wheaton College.');
+    alert('Correct! I went to Wheaton College.');
+    score++;
+  } else {
+    //console.log('You need to answer with a yes or a no');
+    alert('You need to answer with a yes or a no');
+  }
 }
+uWQuestion();
 
 // let question4CorrectAnswer = 0;
 
