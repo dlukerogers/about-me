@@ -129,41 +129,42 @@ sportsQuestion();
 //   question5CorrectAnswer = 0;
 // }
 
-
-let guessNumberAttempts = 4;
-let userHasGuessedCorrectly = false;
-let guessNumber = 0;
-
-while (guessNumberAttempts && !userHasGuessedCorrectly) {
-  guessNumberAttempts--;
-  let message = 'Guess a number between 1 and 10';
-  if (guessNumberAttempts < 3) {
-    message = 'Try again. Guess a number between 1 and 10';
+function numberQuestion() {
+  let guessNumberAttempts = 4;
+  let userHasGuessedCorrectly = false;
+  let guessNumber = 0;
+  while (guessNumberAttempts && !userHasGuessedCorrectly) {
+    guessNumberAttempts--;
+    let message = 'Guess a number between 1 and 10';
+    if (guessNumberAttempts < 3) {
+      message = 'Try again. Guess a number between 1 and 10';
+    }
+    let guessNumber = parseInt(prompt(message));
+    // guessNumber = parseInt(guessNumber);
+    if(guessNumber > 2) {
+      alert(`That number is too high. You have ${guessNumberAttempts} attempts remaining.`);
+      // guessNumber = prompt('Try again. Guess a number between 1 and 10');
+      // guessNumber = parseInt(guessNumber);
+    } else if(guessNumber < 2) {
+      alert(`That number is too low. You have ${guessNumberAttempts} attempts remaining.`);
+      // guessNumber = prompt('Try again. Guess a number between 1 and 10');
+      // guessNumber = parseInt(guessNumber);
+    } else if(guessNumber === 2) {
+      alert('Congratulations! You are correct!');
+      score++;
+      userHasGuessedCorrectly = true;
+      // break;
+    } else if (isNaN (guessNumber)) {
+      alert('Invalid answer!');
+      // guessNumber = prompt('Try again. Guess a number between 1 and 10');
+    }
   }
-  let guessNumber = parseInt(prompt(message));
-  // guessNumber = parseInt(guessNumber);
-  if(guessNumber > 2) {
-    alert(`That number is too high. You have ${guessNumberAttempts} attempts remaining.`);
-    // guessNumber = prompt('Try again. Guess a number between 1 and 10');
-    // guessNumber = parseInt(guessNumber);
-  } else if(guessNumber < 2) {
-    alert(`That number is too low. You have ${guessNumberAttempts} attempts remaining.`);
-    // guessNumber = prompt('Try again. Guess a number between 1 and 10');
-    // guessNumber = parseInt(guessNumber);
-  } else if(guessNumber === 2) {
-    alert('Congratulations! You are correct!');
-    score++;
-    userHasGuessedCorrectly = true;
-    // break;
-  } else if (isNaN (guessNumber)) {
-    alert('Invalid answer!');
-    // guessNumber = prompt('Try again. Guess a number between 1 and 10');
+  console.log (guessNumber);
+  if (guessNumberAttempts <= 0 && !userHasGuessedCorrectly) {
+    alert('You have run out of attempts! The corrrect answer was 2.');
   }
 }
-console.log (guessNumber);
-if (guessNumberAttempts <= 0) {
-  alert('You have run out of attempts! The corrrect answer was 2.');
-}
+numberQuestion();
 
 // let question6CorrectAnswer = 0;
 
