@@ -9,20 +9,22 @@ let userName = prompt('What is your name?');
 
 alert('Hi ' + userName + '.' + ' Welcome to my website!');
 
-let doIHavePets = prompt('Do I have any pets? Yes or no?');
 
-if(doIHavePets.toLowerCase() === 'yes' || doIHavePets.toLowerCase() === 'y') {
-  //console.log('That is incorrect. I do not have any pets.');
-  alert('That is incorrect. I do not have any pets.');
-} else if (doIHavePets.toLowerCase() === 'no' || doIHavePets.toLowerCase() === 'n') {
-  //console.log('Correct! I do not have any pets.');
-  alert('Correct! I do not have any pets.');
-  score++
-} else {
-  //console.log('You need to answer with a yes or a no');
-  alert('You need to answer with a yes or a no');
+function petQuestion() {
+  let doIHavePets = prompt('Do I have any pets? Yes or no?');
+  if(doIHavePets.toLowerCase() === 'yes' || doIHavePets.toLowerCase() === 'y') {
+    //console.log('That is incorrect. I do not have any pets.');
+    alert('That is incorrect. I do not have any pets.');
+  } else if (doIHavePets.toLowerCase() === 'no' || doIHavePets.toLowerCase() === 'n') {
+    //console.log('Correct! I do not have any pets.');
+    alert('Correct! I do not have any pets.');
+    score++;
+  } else {
+    //console.log('You need to answer with a yes or a no');
+    alert('You need to answer with a yes or a no');
+  }
 }
-
+petQuestion();
 // let question1CorrectAnswer = 0;
 
 // if (doIHavePets.toLowerCase() === 'no' || doIHavePets.toLowerCase() === 'n') {

@@ -5,6 +5,7 @@
 I create a website that is all about me! I include my bio and other things about myself. I ask the user to answer yes or no questions about me before I give them access to the page.
 
 ### Author: Luke Rogers
+Lab 4 - Driver: Geoff, Navigator: Luke
 
 ### Links and Resources
 
