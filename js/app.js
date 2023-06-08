@@ -105,19 +105,21 @@ uWQuestion();
 //   question4CorrectAnswer = 0;
 // }
 
-let doILoveSports = prompt('Do I love sports? Yes or no?');
-
-if(doILoveSports.toLowerCase() === 'yes' || doILoveSports.toLowerCase() === 'y') {
-  //console.log('Correct! I do love sports.');
-  alert('Correct! I do love sports.');
-  score++;
-} else if (doILoveSports.toLowerCase() === 'no' || doILoveSports.toLowerCase() === 'n') {
-  //console.log('That is incorrect. I do love sports.');
-  alert('That is incorrect. I do love sports.');
-} else {
-  //console.log('You need to answer with a yes or a no');
-  alert('You need to answer with a yes or a no');
+function sportsQuestion() {
+  let doILoveSports = prompt('Do I love sports? Yes or no?');
+  if(doILoveSports.toLowerCase() === 'yes' || doILoveSports.toLowerCase() === 'y') {
+    //console.log('Correct! I do love sports.');
+    alert('Correct! I do love sports.');
+    score++;
+  } else if (doILoveSports.toLowerCase() === 'no' || doILoveSports.toLowerCase() === 'n') {
+    //console.log('That is incorrect. I do love sports.');
+    alert('That is incorrect. I do love sports.');
+  } else {
+    //console.log('You need to answer with a yes or a no');
+    alert('You need to answer with a yes or a no');
+  }
 }
+sportsQuestion();
 
 // let question5CorrectAnswer = 0;
 
