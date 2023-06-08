@@ -33,19 +33,21 @@ petQuestion();
 //   question1CorrectAnswer = 0;
 // }
 
-let didILiveInColorado = prompt('Did I live in Colorado? Yes or no?');
-
-if(didILiveInColorado.toLowerCase() === 'yes' || didILiveInColorado.toLowerCase() === 'y') {
-  //console.log('Correct! I did live in Colorado.');
-  alert('Correct! I did live in Colorado.');
-  score++;
-} else if (didILiveInColorado.toLowerCase() === 'no' || didILiveInColorado.toLowerCase() === 'n') {
-  //console.log('That is incorrect. I did live in Colorado.');
-  alert('That is incorrect. I did live in Colorado.');
-} else {
-  //console.log('You need to answer with a yes or a no');
-  alert('You need to answer with a yes or a no');
+function coloradoQuestion() {
+  let didILiveInColorado = prompt('Did I live in Colorado? Yes or no?');
+  if(didILiveInColorado.toLowerCase() === 'yes' || didILiveInColorado.toLowerCase() === 'y') {
+    //console.log('Correct! I did live in Colorado.');
+    alert('Correct! I did live in Colorado.');
+    score++;
+  } else if (didILiveInColorado.toLowerCase() === 'no' || didILiveInColorado.toLowerCase() === 'n') {
+    //console.log('That is incorrect. I did live in Colorado.');
+    alert('That is incorrect. I did live in Colorado.');
+  } else {
+    //console.log('You need to answer with a yes or a no');
+    alert('You need to answer with a yes or a no');
+  }
 }
+coloradoQuestion();
 
 // let question2CorrectAnswer = 0;
 
