@@ -27,3 +27,8 @@ I see myself planning and evaluating my learning by being organized with my note
 
 I definitely relate to the statement made above. I believe I learned more during my time at the company I was at before Code Fellows than during my time in college. This is because I am a hands-on learner. The experience I gain is more important to my learning. I think that my experiences at my previous company will help me in this new endeavor at Code Fellows because I learned how to manage my time and juggle multiple projects at once.  
 Today was the hardest day so far at Code Fellows. I felt scattered when it came to learning loops and the logic behind them. I think it is because I tried to take notes as the teacher was teaching and got too focused on that, that I missed what she was actually trying to teach us. I need to learn when to pause my note-taking and just listen to really absorb the information being taught.  
+
+#### Learning Journal: 04  
+
+My main motivation for learning is to apply what I learn to my future work so that my work will be remarkable and make a difference in the lives of others. I also am motivated by my curiosity and passion for this subject. It's been one of my only passions so far in life and I want to make sure I learn as much as I can about it.  
+Today went very well in terms of my learning. I felt like the material from yesterday really clicked today and I understood the material for today. I definitely focused on listening at certain points of the lecture where I was more shaky on the material instead of trying to take notes. This worked as I began to understand the material better.  
