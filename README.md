@@ -5,6 +5,7 @@
 I create a website that is all about me! I include my bio and other things about myself. I ask the user to answer yes or no questions about me before I give them access to the page.
 
 ### Author: Luke Rogers
+
 Lab 4 - Driver: Geoff, Navigator: Luke
 
 ### Links and Resources
@@ -16,6 +17,7 @@ Lab 4 - Driver: Geoff, Navigator: Luke
 
 * ![Lighthouse report - Lab 2](/img/Lighthouse-report-lab2.png "Lighthouse report - Lab 2")
 * ![Lighthouse report - Lab 3](/img/Lighthouse-report-lab3.png "Lighthouse report - Lab 3")
+* ![Lighthouse report - Lab 5b](/img/Lighthouse-report-lab5b.png "Lighthouse report - Lab 5b")
 
 ### Reflections and Comments
 
@@ -32,3 +34,7 @@ Today was the hardest day so far at Code Fellows. I felt scattered when it came 
 
 My main motivation for learning is to apply what I learn to my future work so that my work will be remarkable and make a difference in the lives of others. I also am motivated by my curiosity and passion for this subject. It's been one of my only passions so far in life and I want to make sure I learn as much as I can about it.  
 Today went very well in terms of my learning. I felt like the material from yesterday really clicked today and I understood the material for today. I definitely focused on listening at certain points of the lecture where I was more shaky on the material instead of trying to take notes. This worked as I began to understand the material better.  
+
+#### Learning Journal: 05
+
+My large scale *why* is so I can apply what I learn to my career and my next job. I want to be able to do what I do extremely well so people can rely on me. My small scale *why* is because I am curious in coding and want to know how to build functional software. Today, learning was tough because it was a Friday and we had been learning all week so it was kind of a learning overload. I felt tired and restless at times. I did feel like I was able to retain most of the information, though.
